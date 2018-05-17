@@ -1,0 +1,24 @@
+{
+  "name": "jules0x/element-photoswipe",
+  "type": "silverstripe-vendormodule",
+  "description": "An ElementalList of images for a photoswipe gallery.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julian Thomson",
+      "email": "thebreaks@live.com"
+    }
+  ],
+  "require": {
+    "composer/installers": "*",
+    "silverstripe/framework": "^4.1",
+    "silverstripe/vendor-plugin": "^1",
+    "dnadesign/silverstripe-elemental": "^2",
+    "dnadesign/silverstripe-elemental-list": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jules0x\\Elements\\": "src/"
+    }
+  }
+}
